@@ -22,7 +22,7 @@ public:
 private:
 	Settings& _settings = Settings::Instance();
 
-	byte const _PIN = A0;
+//	byte const _PIN = A0;
 };
 
 #endif /* CLASSES_WATERPRESSURESENSOR_H_ */

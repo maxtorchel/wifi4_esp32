@@ -11,7 +11,7 @@ void WaterPressureSensor::start() {}
 double WaterPressureSensor::getValue()
 {
 	if(String(_settings.config.sensors.list[sensorId].host)==""){
-		int sensorVal = analogRead(_PIN);
+		int sensorVal = analogRead(_settings.config.sensors.list[sensorId].pin);
 		float voltage = (sensorVal*3.3)/1024.0;
 		float pressure_pascal = (3.0*((float)voltage-0.45))*1000000.0;
 		float pressure_bar = pressure_pascal/10e5;

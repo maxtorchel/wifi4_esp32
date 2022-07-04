@@ -20,7 +20,7 @@ private:
 	Board _board;
 
 	//Reboot && Reset button
-	const static byte RR_BUTTON_PIN = 39;
+	const static byte RR_BUTTON_PIN = 15;
 	const static unsigned int FRESET_PRESS_TIME = 20000;
 	const static unsigned int RESET_PRESS_TIME = 5000;
 	const static unsigned int REBOOT_PRESS_TIME = 1000;

@@ -26,10 +26,7 @@ String SensorsSettingsView::printPage()
 					  "{value:0,text:\"\"},"
 					  "{value:2,text:\"D2\"},"
 					  "{value:4,text:\"D4\"},"
-					  "{value:5,text:\"D5\"},"
 					  "{value:13,text:\"D13\"},"
-					  "{value:14,text:\"D14\"},"
-					  "{value:15,text:\"D15\"},"
 					  "{value:18,text:\"D18\"},"
 					  "{value:19,text:\"D19\"},"
 					  "{value:23,text:\"D23\"},"
@@ -40,6 +37,8 @@ String SensorsSettingsView::printPage()
 					  "{value:33,text:\"D33\"},"
 					  "{value:16,text:\"RX2\"},"
 					  "{value:17,text:\"TX2\"},"
+					  "{value:36,text:\"VP\"},"
+					  "{value:39,text:\"VN\"},"
 				  "]");
 
 	html += F("<script type='text/javascript'>"
